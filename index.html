@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+</head>
+<body>
+
+  <header> <!-- header -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top " style="  height: 80px;opacity: 0.6;">
+      <div class="container-fluid ">
+        <input type="image" src="images/Travel, tourism agency logo design template.png" class="  rounded-circle mx-3 shadow" alt="pic" height="65px"
+          width="65px">
+        <a class="navbar-brand text-info m-3" href="#"
+          style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;" ><span>T</span>ravel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-info" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle text-info border-2 border-info rounded-3" href="#"
+                id="nav-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Trips
+              </button>
+              <ul class="dropdown-menu mt-3  fade " aria-labelledby="nav-Dropdown" style="color: #008ECD !important; font-weight: bold !important;">
+                <li><a class="dropdown-item text-info" target="_blank" href="" style="color: #008ECD !important; font-weight: bold !important;">EGYPT</a></li>
+                <li><a class="dropdown-item text-info" target="_blank" href="" style="color: #008ECD !important; font-weight: bold !important;"> UAE</a></li>
+                <li>
+                  <hr class="dropdown-divider bg-info">
+                </li>
+                <li><a class="dropdown-item text-info" target="_blank" href="" style="color: #008ECD !important; font-weight: bold !important;">FRANCE</a></li>
+                <li><a class="dropdown-item text-info" target="_blank" href="" style="color: #008ECD !important; font-weight: bold !important;">UAE</a></li>
+                <li><a class="dropdown-item text-info" target="_blank" href="" style="color: #008ECD !important; font-weight: bold !important;">BALI</a></li>
+                <li><a class="dropdown-item text-info" target="_blank" href="" style="color: #008ECD !important; font-weight: bold !important;">MORE ...</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-info">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control m-3 border-3 border-info rounded-3" type="search" placeholder="Search"
+              aria-label="Search">
+
+          </form>
+          <form class="d-flex">
+            <button class=" navbtn btn bg-info text-white me-3 border-3 border-info rounded-3 shadow-lg"
+              type="submit">Search</button>
+            <button class="navbtn btn bg-info text-white border-3 border-info rounded-3 shadow-lg" type="button"
+              data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+          </form> <!-- /form -->
+        </div> <!-- /navbar-collapse -->
+
+      </div>
+    </nav>
+    <!-- /navbar -->
+  </header> <!-- /header -->
+
+    
+
+      <aside class="icons">
+        <div class="container-fluid p-0 " style="position: relative;">
+  
+          <div class="d-flex flex-column justify-content-between ms-auto"
+            style="position: fixed;z-index: 90;top: 200px;right:20px;">
+            <div class="aside-icon "><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+            <div class="aside-icon "><a href="#"><i class="fab fa-whatsapp-square"></i></a></div>
+            <div class="aside-icon "><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+            <div class="aside-icon "><a href="#"><i class="fab fa-linkedin"></i></a></div>
+            <div class="aside-icon "><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+          </div>
+      </aside>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/home1.jpg" style="width: 100%; height: 100vh;" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Wonderful Island</h5>
+              <p>The island was bathed in golden sunlight, with palm trees swaying gently in the warm breeze. Crystal-clear waters lapped against the shore, inviting visitors to explore its hidden treasures.</p>
+              <button type="button" class="btn btn-primary text-white">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/home2.jpg" style="width: 100%; height: 100vh;" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Feel Nature Relax</h5>
+              <p>Immersing oneself in nature's embrace, the tranquil whispers of the wind and the gentle sway of trees offer a soothing refuge from the chaos of everyday life.</p>
+              <button type="button" class="btn btn-primary text-white">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/home3.jpg" style="width: 100%; height: 100vh;" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Adventures Off Road</h5>
+              <p>Embarking on the open road, with nothing but endless possibilities ahead, each twist and turn holds the promise of new discoveries and exhilarating experiences.</p>
+              <button type="button" class="btn btn-primary text-white">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="welcome ">
+        <div class="card-body">
+          <h2 class="card-title">WELCOME</h2>
+          <p class="card-text">Welcome to our travel website! We are delighted to serve you and help you achieve the best travel experience possible. Whether you are planning an important business trip or a leisurely vacation.</p>
+          <a href="#" class="btn btn-light text-light">Learn More</a>
+        </div>
+      </div>
+      <hr>
+
+      <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg "
+        style="background-color: #008ECD;">
+        <h1 style="color: #EAF1F4;">Popular destinations in our website</h1>
+      </div>
+      <hr>
+
+      <div class="accordion" id="accordionExample" style="background-color: #EAF1F4;">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: #424141; font-size: 30px; font-weight:bold;">
+              EGYPT
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="background-color: #EAF1F4;">
+              <strong>This is the land of the pyramids.</strong> Egypt is a country located in northeastern Africa, and it is home to one of the oldest civilizations in history.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: #424141; font-size: 30px; font-weight:bold;">
+              FRANCE
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="background-color: #EAF1F4;">
+              <strong>This is the country of the Eiffel Tower.</strong> France is a diverse and captivating tourist destination, renowned for its rich history, art, and culture. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: #424141; font-size: 30px; font-weight:bold;">
+              BALI
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body" style="background-color: #EAF1F4;">
+              <strong>This is the third item's accordion body.</strong> Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches, and coral reefs.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg "
+      style="background-color: #008ECD">
+      <h1>Translate From Arabic To English</h1>
+    </div>
+   
+    <div class="car p-3  text-white shadow-lg"
+      style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: #EAF1F4;">
+      <div class="card-body">
+        <h4 class="card-title ">Write and Translate <a href="https://translate.google.com.eg/?hl=en"
+            target="_blank" rel="noopener" style="text-decoration: none; color: #008ECD;">Press Here</a></h4>
+        <button
+          class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg "
+          onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px; color: #EAF1F4 !important;">
+          Copy
+        </button>
+        <br>
+        <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" id="comment" placeholder="translate:"
+          name="text"></textarea>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg "
+      style="background-color: #008ECD">
+      <h1>Translate From Arabic To Frensh</h1>
+    </div>
+    
+    <div class="car p-3  text-white shadow-lg"
+      style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: #EAF1F4;">
+      <div class="card-body">
+        <h4 class="card-title ">Write and Translate <a
+            href="https://translate.google.com.eg/?hl=en&sl=ar&tl=fr&op=translate" target="_blank"
+            rel="noopener" style="text-decoration: none; color: #008ECD;" >Press Here</a></h4>
+        <button
+          class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg"
+          onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px; color: #EAF1F4 !important;">
+          Copy
+        </button>
+        <br>
+        <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" id="comment" placeholder="translate:"
+          name="text"></textarea>
+      </div>
+    </div>
+    
+    <hr>
+    <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg "
+      style="background-color: #008ECD">
+      <h1>Translate From Arabic To German</h1>
+    </div>
+  
+    <div class="car p-3  text-white shadow-lg"
+      style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: #EAF1F4;">
+      <div class="card-body">
+        <h4 class="card-title ">Write and Translate <a
+            href="https://translate.google.com.eg/?hl=en&sl=ar&tl=de&op=translate" target="_blank"
+            rel="noopener"  style="text-decoration: none; color: #008ECD;" >Press Here</a></h4>
+        <button
+          class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg"
+          onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px; color: #EAF1F4 !important;">
+          Copy
+        </button>
+        <br>
+        <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" id="comment" placeholder="translate:"
+          name="text"></textarea>
+      </div>
+    </div>
+    
+    <hr>
+
+    <div class="first-fixed-image">
+      <div class="overlay">
+        <div class="container">
+          <div class="content">
+
+            <div class="content-item">
+              <i class="fas fa-users"></i>
+              <h3>4.5M</h3>
+              <p>Happy Clients</p>
+            </div>
+
+            <div class="content-item">
+              <i class="fas fa-plane"></i>
+              <h3>120</h3>
+              <p>Daily Flights</p>
+            </div>
+
+            <div class="content-item">
+              <i class="fas fa-hotel"></i>
+              <h3>70K</h3>
+              <p>5 Stars Hotels</p>
+            </div>
+
+            <div class="content-item">
+              <i class="fas fa-globe-africa"></i>
+              <h3>150</h3>
+              <p>Country Around The World</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg "
+        style="background-color: #008ECD;">
+        <h1 class="title" style="font-size: 40px;">Popular destinations in Travel</h1>
+      </div>
+
+    <!-- Cards -->
+
+    <div class="container ">
+      <div class="row ">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/Khalifa.jpg" height="277" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Khalifa Tower</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/freedom.jpg" height="277" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Statue of Liberty</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/dubai.jpg" height="277" class="card-img-top" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Burj Al Arab</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/pyramids'.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Pyramids</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/eiffel.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Eiffel Tower</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/maldives.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Bali</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/sydney.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Sydney Opera House</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/pexels-asad-photo-maldives-3601426.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Maldives</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/singapore.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Singapore</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/singapore (2).jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Singapore Town</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/pexels-kevin-kobal-2191136.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Spain</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card destination my-3">
+            <img src="images/pexels-fabian-wiktor-994605.jpg" class="card-img-top" height="277" alt="...">
+            <div class="card-body" style="height: 150px;">
+              <h5 class="card-title"><i class="fas fa-map-pin"></i> Italy</h5>
+              <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><br><b><i class="fas fa-money-check-alt"></i> Price: 1200$</b></p>
+              <a href="#" class="btn btn-primary zzz">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="second-fixed-image">
+    <div class="overlay"></div>
+  </div>
+
+
+
+    <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg "
+        style="background-color: #008ECD;">
+        <h1 class="title" style="font-size: 40px;">Thanks For</h1>
+      </div>
+
+      <section class="wrapper">
+        <div class="container" style="width: 100%; min-height: 500px;">
+  
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+              <div class="card card-hover text-white card-has-bg click-col thankcard"
+                style="background-image: url(images/owner.jpg);">
+                
+                <div class="card-img-overlay d-flex flex-column">
+                  
+                    <div class="font">
+                    <h4 class="card-title mt-0 "><a class="text-white" herf="#" style="text-decoration: none;">All thanks and appreciation</a></h4>
+                    <small><i class="far fa-clock"></i> November 25, 2023</small>
+                    </div>
+                  <div class="card-footer">
+                    <div class="media" style="margin-top: 150px;">
+                      <img class="mr-3 rounded-circle" src="images/owner.jpg" alt="Generic placeholder image"
+                        style="width:100px" >
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block">Eng. John William</h6>
+                        <small>Owner</small>
+                      </div>
+                    </div>
+                  </div> 
+                </div> 
+              </div>  
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+              <div class="card card-hover text-white card-has-bg click-col thankcard"
+                style="background-image:url(images/webdesigner.jpg);">
+                
+                <div class="card-img-overlay d-flex flex-column">
+                 
+                    <div class="font">
+                    <h4 class="card-title mt-0 "><a class="text-white" herf="#" style="text-decoration: none;">All thanks and appreciation</a></h4>
+                    <small><i class="far fa-clock"></i> November 25, 2023</small>
+                    </div>
+                  <div class="card-footer">
+                    <div class="media" style="margin-top: 150px;">
+                      <img class="mr-3 rounded-circle" src="images/webdesigner.jpg" alt="Generic placeholder image"
+                        style="width:100px">
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block">Eng. Robert James</h6>
+                        <small>Web Designer</small>
+                      </div>
+                    </div>
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3">
+              <div class="card card-hover text-white card-has-bg click-col thankcard"
+                style="background-image:url(images/uiux.jpg);">
+                
+                <div class="card-img-overlay d-flex flex-column">
+                  
+                    <div class="font">
+                    <h4 class="card-title mt-0 "><a class="text-white" herf="#" style="text-decoration: none;">All thanks and appreciation</a></h4>
+                    <small><i class="far fa-clock"></i> November 25, 2023</small>
+                    </div>
+                  <div class="card-footer">
+                    <div class="media" style="margin-top: 150px;">
+                      <img class="mr-3 rounded-circle" src="images/uiux.jpg" alt="Generic placeholder image"
+                        style="width:100px">
+                      <div class="media-body">
+                        <h6 class="my-0 text-white d-block">Eng. Charles Edward</h6>
+                        <small>Director of UI/UX</small>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div> 
+            </div> 
+  
+          </div> 
+  
+        </div>
+      </section>
+
+    <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg "
+      style="background-color: #008ECD;">
+      <h1 class="title" style="font-size: 40px;">Recent News</h1>
+    </div>
+
+<section class="news">
+  <div class="container">
+
+    <div class="card-news mb-3" style="box-shadow: 3px 3px 70px 1px #008ECD; background-color: #EAF1F4;" >
+      <div class="row g-0" >
+        <div class="col-md-4 div15" style="overflow: hidden; clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);  background-color: #EAF1F4 !important;">
+          <img src="images/pyramidssss.jpg" class="img-fluid rounded-start" style="height: 450px; width: 100%; color: #EAF1F4; transition: 0.3s;" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" style="height: 450px; width: 100%; background-color: #EAF1F4;">
+            <h5 class="card-title fs-2">Pyramids</h5>
+            <div class="calender"><i class="fas fa-calendar-alt"></i> Sat, Nov 25th 2023</div>
+            <div class="line-hover" style="transition: 0.3s;"></div>
+            <p class="card-text fw-bold">Age and Construction: The pyramids were built during the Old Kingdom period of ancient Egypt, with the Great Pyramid of Giza, also known as the Pyramid of Khufu or Cheops, constructed around 2560 BC. The pyramids were built as royal tombs for the pharaohs and were part of a larger complex that included temples, causeways, and smaller pyramids for the pharaoh's family members.
+
+              Great Pyramid of Giza: The Great Pyramid of Giza is the largest of the three main pyramids and was the tallest man-made structure in the world for over 3,800 years. It is believed to have been constructed over a 20-year period using intricate techniques and massive limestone blocks.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <ul class="news-links">
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-tag"></i> Podcast</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-clock"></i> 55 mins</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-play"></i> Play Episode</li> </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="card-news mb-3" style="box-shadow: 3px 3px 70px 1px #008ECD;">
+      <div class="row g-0">
+
+        <div class="col-md-8">
+          <div class="card-body" style="height: 450px; width: 100%;">
+            <h5 class="card-title fs-2">The Great Wall Of China</h5>
+            <div class="calender"><i class="fas fa-calendar-alt"></i> Sat, Nov 25th 2023</div>
+            <div class="line-hover" style="transition: 0.3s;"></div>
+            <p class="card-text fw-bold">The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally "ten thousand li long wall") is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC,[4] with selective stretches later joined by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains.[5] Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <ul class="news-links">
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-tag"></i> Podcast</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-clock"></i> 55 mins</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-play"></i> Play Episode</li> </button>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 div15" style="overflow: hidden; clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 100%); background-color: #EAF1F4 !important;">
+          <img class="img2" src="images/great-wall-of-china.jpg" class="img-fluid rounded-start" style="height: 450px; width: 100%; transition: 0.3s;" alt="...">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="card-news mb-3" style="box-shadow: 3px 3px 70px 1px #008ECD;">
+      <div class="row g-0">
+        <div class="col-md-4 div15" style="overflow: hidden; clip-path: polygon(0 0, 100% 0, 89% 100%, 0% 100%);  background-color: #EAF1F4 !important; transition: 0.3s;">
+          <img src="images/The Colosseum in Rome,.jpg" class="img-fluid rounded-start" style="height: 450px; width: 100%; transition: 0.3s;" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" style="height: 450px; width: 100%;">
+            <h5 class="card-title fs-2">The Colosseum in Rome</h5>
+            <div class="calender"><i class="fas fa-calendar-alt"></i> Sat, Nov 25th 2023</div>
+            <div class="line-hover" style="transition: 0.3s;"></div>
+            <p class="card-text fw-bold">Construction: The Colosseum was built during the Flavian dynasty and was completed in 80 AD. It was commissioned by Emperor Vespasian and later inaugurated by his son Titus.
+
+              Purpose: The Colosseum was primarily used for gladiatorial contests, public spectacles, and various forms of entertainment, including animal hunts, mock naval battles, and executions.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <ul class="news-links">
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-tag"></i> Podcast</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-clock"></i> 55 mins</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-play"></i> Play Episode</li> </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-news mb-3" style="box-shadow: 3px 3px 70px 1px #008ECD;">
+      <div class="row g-0">
+        
+        <div class="col-md-8">
+          <div class="card-body" style="height: 450px; width: 100%;">
+            <h5 class="card-title fs-2">The Acropolis in Athens</h5>
+            <div class="calender"><i class="fas fa-calendar-alt"></i> Sat, Nov 25th 2023</div>
+            <div class="line-hover" style="transition: 0.3s;"></div>
+            <p class="card-text fw-bold">History and Significance: The Acropolis is one of the most significant historical and cultural sites in the world. It was built in ancient times and served as a religious, cultural, and political center for the ancient city of Athens.
+
+              Temples and Structures: The Acropolis contains several magnificent temples and structures, including
+              
+            The Parthenon: The Parthenon is the most famous temple in the Acropolis. It was built in the 5th century BC and was dedicated to the goddess Athena.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <ul class="news-links">
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-tag"></i> Podcast</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-clock"></i> 55 mins</li> </button>
+              <button style="background-color: #008ECD; border: none;"><li><i class="fas fa-play"></i> Play Episode</li> </button>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 div15" style="overflow: hidden; clip-path: polygon(0 0, 100% 0, 100% 100%, 11% 100%);  background-color: #EAF1F4 !important; ">
+          <img class="img2" src="images/The Acropolis in Athens, Greece.jpg" class="img-fluid rounded-start" style="height: 450px; width: 100%; transition: 0.3s;" alt="...">
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</section>
+
+<div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg "
+      style="background-color: #008ECD;">
+      <h1 class="title" style="font-size: 40px;">Join Us</h1>
+    </div>
+
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: 1px 1px 150px 5px #008ECD; background-color: #EAF1F4 !important;">
+          <div class="card-body text-info d-flex flex-column text-center" >
+            <h3 class="card-title mb-4">Subscribe Now
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; border-radius: 5px;" src="images/twetter.jpg" type="image"
+              alt="icon">
+            <a href="#" target="_blank" class="card-link h4 text-info  " style="text-decoration: none; color: #008ECD !important;">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: 1px 1px 150px 5px #008ECD; background-color: #EAF1F4 !important;">
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4">Follow
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; border-radius: 5px;" src="images/whats.jpg" type="image"
+              alt="icon">
+            <a href="" target="_blank" class="card-link h4 text-info " style="text-decoration: none; color: #008ECD !important;">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px;  box-shadow: 1px 1px 150px 5px #008ECD; background-color: #EAF1F4 !important;">
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4">Like the page
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; border-radius: 5px;" src="images/in.jpg" type="image"
+              alt="icon">
+            <a href="" target="_blank" class="card-link h4 text-info " style="text-decoration: none; color: #008ECD !important;">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: 1px 1px 150px 5px #008ECD; background-color: #EAF1F4 !important;">
+          <div class="card-body text-info d-flex flex-column text-center">
+            <h3 class="card-title mb-4">Watch Videos
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center; border-radius: 5px;" src="images/insta.jpg" type="image"
+              alt="icon">
+            <a href="" target="_blank" class="card-link h4 text-info " style="text-decoration: none; color: #008ECD !important;">Go to link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin: 30px;"></div>
+<!-- Footer -->
+<footer class="bg-body-tertiary text-center" style="background-color: #008ECD !important;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4 linksss" style="color: #EAF1F4 !important;">
+      <!-- Facebook -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+       style="color: #EAF1F4 !important;" ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+      style="color: #EAF1F4 !important;"  ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+      style="color: #EAF1F4 !important;"  ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+      style="color: #EAF1F4 !important;"  ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+      style="color: #EAF1F4 !important;"  ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+      style="color: #EAF1F4 !important;"  ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example24" class="form-control" />
+              <label class="form-label" for="form5Example24">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4 " style="background-color: var(--bs-body-color) !important; color: #008ECD !important;">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        A tourism company is a business that specializes in providing travel and tourism services to individuals and groups. These services can include organizing tours, booking flights and accommodations, arranging transportation, and offering various travel packages and activities.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5><img src="images/Travel, tourism agency logo design template.png" alt="good pic" class="logoicon rounded-circle">&nbsp; Good Company</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body tyy" href="#!">Tel : 000-000-000</a>
+            </li>
+            <li>
+              <a class="text-body tyy" href="#!">Address : EGYPT</a>
+            </li>
+            <li>
+              <a class="text-body tyy" href="#!">Fax : 000-000-000</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5><img src="images/Travel, tourism agency logo design template.png" alt="good pic" class="logoicon rounded-circle">&nbsp; Important links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body tyy" href="#!">Visit Us</a>
+            </li>
+            <li>
+              <a class="text-body tyy" href="#!">Take alook</a>
+            </li>
+            <li>
+              <a class="text-body tyy" href="#!">Your health is more important</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5><img src="images/Travel, tourism agency logo design template.png" alt="good pic" class="logoicon rounded-circle">&nbsp; Vision</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body tyy" href="#!">Serveices for all</a>
+            </li>
+            <li>
+              <a class="text-body tyy" href="#!">Provide best serveices</a>
+            </li>
+            <li>
+              <a class="text-body tyy" href="#!">you will be better than before</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    COPYRIGHT © 2023 . ALL RIGHT RESERVED BY 
+    <a class="text-reset fw-bold" style="text-decoration: none;">Mohamed Ibrahim</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
